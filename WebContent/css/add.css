@@ -1,0 +1,40 @@
+*{
+	padding:0;
+	margin:0;
+}
+ui,li{
+	list-style:none;
+}
+body{
+	background:#eee;
+}
+#body-box{
+	width:90%;
+	background:white;
+	box-shadow:1px 1px 1px 1px;
+	margin:20px auto;
+	background: #fff url(../images/3.gif) no-repeat right 20px center;
+}
+#body-info{
+	width:90%;
+	margin:auto;
+	padding:20px;
+	
+}
+#body-info .info-list{
+	display:block;
+	height:40px;
+	line-height:40px;
+	cursor:pointer;
+}
+input[type=text],input[type=password]{
+	width:200px;
+	height:30px;
+}
+input[type=submit]{
+	margin:auto;
+	width:80px;
+	height:40px;
+	background:#0053b9;
+	color:white;
+}
